@@ -15,19 +15,19 @@
   aria-label="问卷导航"
 >
   <button
-    class="inline-flex min-h-(--touch-target) items-center gap-(--unit) rounded-lg bg-transparent px-2 text-[15px] leading-5 font-semibold text-(--secondary) transition-[color,opacity,transform] duration-150 hover:text-(--primary-container) active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--primary)"
+    class="inline-flex min-h-(--touch-target) items-center gap-(--unit) rounded-lg bg-transparent px-2 font-semibold text-(--secondary) transition-[color,opacity,transform] duration-150 hover:text-(--primary-container) active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--primary)"
     onclick={onBack}
   >
     <span class="material-symbols-outlined">chevron_left</span>
-    <span>返回</span>
+    <span class="nav-label-capsize">返回</span>
   </button>
 
   <button
-    class="group relative inline-flex min-h-(--touch-target) items-center gap-(--unit) overflow-hidden rounded-full border border-(--outline-variant) bg-(--surface-container-lowest) px-4 py-2 text-[15px] leading-5 font-semibold text-(--primary) shadow-sm transition-[color,opacity,transform] duration-150 hover:text-(--primary-container) active:scale-95 disabled:cursor-not-allowed disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--primary)"
+    class="group relative inline-flex min-h-(--touch-target) items-center gap-(--unit) overflow-hidden rounded-full border border-(--outline-variant) bg-(--surface-container-lowest) px-4 py-2 font-semibold text-(--primary) shadow-sm transition-[color,opacity,transform] duration-150 hover:text-(--primary-container) active:scale-95 disabled:cursor-not-allowed disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--primary)"
     disabled={!canContinue}
     onclick={onNext}
   >
-    <span>下一步</span>
+    <span class="nav-label-capsize">下一步</span>
     <span class="material-symbols-outlined transition-transform duration-150 group-hover:translate-x-1">chevron_right</span>
   </button>
 </nav>

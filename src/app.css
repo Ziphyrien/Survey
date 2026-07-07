@@ -83,6 +83,23 @@ button {
     "opsz" 24;
 }
 
+.nav-label-capsize {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.nav-label-capsize::before {
+  display: table;
+  margin-bottom: -0.503em;
+  content: "";
+}
+
+.nav-label-capsize::after {
+  display: table;
+  margin-top: -0.364em;
+  content: "";
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
