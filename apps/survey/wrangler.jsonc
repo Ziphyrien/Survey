@@ -1,0 +1,15 @@
+{
+  "name": "parent-gender-detector",
+  "compatibility_date": "2026-07-09",
+  "assets": {
+    "directory": "./build",
+    "not_found_handling": "single-page-application",
+  },
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "pgd.zipawa.top/*",
+      "zone_name": "zipawa.top",
+    },
+  ],
+}
