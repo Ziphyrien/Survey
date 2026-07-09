@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600&display=swap");
+@import "@survey/ui/styles.css";
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: max(884px, 100dvh);
+  background: var(--surface);
+  color: var(--on-background);
+  font-family:
+    "Noto Sans SC",
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "PingFang SC",
+    "Microsoft YaHei",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font: inherit;
+}
