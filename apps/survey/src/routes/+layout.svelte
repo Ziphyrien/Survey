@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>问卷</title>
+  <title>父母性别检测器</title>
 </svelte:head>
 
 {@render children()}
