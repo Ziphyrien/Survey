@@ -7,7 +7,7 @@
     "dev": "vp dev",
     "build": "vp build",
     "preview": "vp preview",
-    "check": "vp check"
+    "sync": "svelte-kit sync"
   },
   "dependencies": {
     "@survey/ui": "workspace:*"
@@ -21,7 +21,6 @@
     "svelte-check": "^4.2.0",
     "tailwindcss": "^4.3.2",
     "typescript": "^6.0.3",
-    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
-    "vite-plus": "latest"
+    "vite-plus": "0.2.4"
   }
 }

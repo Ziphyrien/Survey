@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
+  "svelte": "./src/index.ts",
   "exports": {
     ".": {
       "svelte": "./src/index.ts",
@@ -11,7 +12,6 @@
     },
     "./styles.css": "./src/styles.css"
   },
-  "svelte": "./src/index.ts",
   "dependencies": {
     "@paper-design/shaders": "^0.0.77",
     "bits-ui": "^2.18.1"
