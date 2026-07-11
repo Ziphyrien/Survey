@@ -86,7 +86,7 @@
       choices: [
         { value: '50', label: '50%' },
         { value: '20', label: '20%' },
-        { value: '1', label: '1% 还能聊' }
+        { value: '1', label: '1% 还能争' }
       ]
     },
     {
