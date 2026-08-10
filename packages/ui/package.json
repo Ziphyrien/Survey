@@ -13,7 +13,7 @@
     "./styles.css": "./src/styles.css"
   },
   "dependencies": {
-    "@paper-design/shaders": "^0.0.78",
+    "@paper-design/shaders": "^0.0.79",
     "bits-ui": "^2.18.1"
   },
   "devDependencies": {
