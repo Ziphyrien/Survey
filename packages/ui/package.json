@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@paper-design/shaders": "^0.0.80",
-    "bits-ui": "^2.18.1"
+    "bits-ui": "^2.19.0"
   },
   "devDependencies": {
     "@capsizecss/core": "^4.1.3",
