@@ -21,6 +21,6 @@
     "svelte-check": "^4.7.8",
     "tailwindcss": "^4.3.5",
     "typescript": "^7.0.2",
-    "vite-plus": "0.2.6"
+    "vite-plus": "1.5.1"
   }
 }
